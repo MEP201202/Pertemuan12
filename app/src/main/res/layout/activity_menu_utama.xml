@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4F8"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MenuUtama">
+
+    <TextView
+        android:id="@+id/tvPilihMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilihan Menu"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#1E88E5"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:id="@+id/btnsegitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#1E88E5"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="50dp"
+        android:text="Luas Segitiga" />
+
+    <Button
+        android:id="@+id/btntentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Tentang Aplikasi" />
+
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keluar" />
+
+</LinearLayout>
