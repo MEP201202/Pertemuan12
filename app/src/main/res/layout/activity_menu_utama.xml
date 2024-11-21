@@ -7,11 +7,11 @@
     android:layout_height="match_parent"
     android:background="#F0F4F8"
     android:orientation="vertical"
-    android:padding="24dp"
+    android:padding="20dp"
     tools:context=".MenuUtama">
 
     <TextView
-        android:id="@+id/tvPilihMenu"
+        android:id="@+id/tvpilihmenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pilihan Menu"
@@ -27,23 +27,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
         android:textSize="16sp"
         app:backgroundTint="#1E88E5"
-        android:background="@drawable/rounded_button"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="30dp"
         android:text="Luas Segitiga" />
 
     <Button
         android:id="@+id/btntentang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:textSize="16sp"
+        app:backgroundTint="#1E88E5"
+        android:layout_marginBottom="30dp"
         android:text="Tentang Aplikasi" />
 
     <Button
         android:id="@+id/btnkeluar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:textSize="16sp"
+        app:backgroundTint="#1E88E5"
         android:text="Keluar" />
 
 </LinearLayout>
