@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#F0F4F8"
+    android:background="#222831"
     android:padding="20dp"
     tools:context=".Segitiga">
 
@@ -18,8 +18,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
         android:text="Luas Segitiga"
-        android:textColor="#1E88E5"
-        android:textSize="30sp"
+        android:textColor="#00ADB5"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
     <TextView
@@ -29,7 +29,7 @@
         android:layout_marginBottom="10dp"
         android:text="Nilai Alas"
         android:padding="14dp"
-        android:textColor="#1E88E5"
+        android:textColor="#00ADB5"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -54,7 +54,7 @@
         android:layout_marginBottom="10dp"
         android:padding="14dp"
         android:text="Nilai Tinggi"
-        android:textColor="#1E88E5"
+        android:textColor="#00ADB5"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -79,7 +79,7 @@
         android:layout_marginBottom="10dp"
         android:padding="14dp"
         android:text="Hasil"
-        android:textColor="#1E88E5"
+        android:textColor="#00ADB5"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -93,7 +93,7 @@
         android:layout_marginRight="14dp"
         android:background="@drawable/rounded_edittext"
         android:inputType="number"
-        android:padding="20dp"
+        android:padding="14dp"
         android:textColorHint="@color/hintColor"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -109,8 +109,9 @@
             android:layout_weight="1"
             android:text="Hitung"
             android:layout_margin="14dp"
-            android:backgroundTint="#1E88E5"
-            android:textColor="#FFFFFF"
+            android:backgroundTint="#00ADB5"
+            android:textColor="#393E46"
+            android:textStyle="bold"
             android:textSize="16sp" />
 
         <Button
@@ -120,8 +121,9 @@
             android:layout_weight="1"
             android:text="Hapus"
             android:layout_margin="14dp"
-            android:backgroundTint="#1E88E5"
-            android:textColor="#FFFFFF"
+            android:backgroundTint="#00ADB5"
+            android:textColor="#393E46"
+            android:textStyle="bold"
             android:textSize="16sp" />
     </LinearLayout>
 </LinearLayout>
